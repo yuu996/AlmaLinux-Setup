@@ -29,17 +29,6 @@ sudo systemctl status sshd
 sudo systemctl stop sshd
 sudo yum install -y epel-release
 
-#git
-echo "installing git!"
-sudo yum install -y git
-echo "-----------------------------------------------------------"
-read -p "username : " username
-echo "-----------------------------------------------------------"
-read -p "E-mail Address : " email
-echo "-----------------------------------------------------------"
-git config --global user.name "$username"
-git config --global user.email "$email"
-
 #chrome
 echo "installing Google chrome!"
 sudo tee /etc/yum.repos.d/google-chrome.repo <<EOF
