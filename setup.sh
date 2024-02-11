@@ -11,3 +11,4 @@
 ./module/bitwarden.sh
 ./module/chrome.sh
 ./module/tweaks.sh
+./module/update.sh
