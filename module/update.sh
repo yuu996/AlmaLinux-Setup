@@ -2,3 +2,4 @@
 echo "OS updating!"
 sudo yum update -y && sudo yum upgrade -y
 
+sleep 10
