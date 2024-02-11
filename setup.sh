@@ -10,4 +10,4 @@
 ./module/vscode.sh
 ./module/bitwarden.sh
 ./module/chrome.sh
-./module/change-capslock-ctrl.sh
+./module/tweaks.sh
