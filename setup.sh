@@ -4,6 +4,7 @@
 ./module/firewalld.sh
 ./module/snapd.sh
 ./module/awscli.sh
+./module/update.sh
 ./module/discord.sh
 ./module/menu-setup.sh
 ./module/nodejs.sh
