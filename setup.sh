@@ -1,6 +1,6 @@
 #!/bin/sh
-./module/timestamp_timeout.sh
 ./module/update.sh
+./module/timestamp_timeout.sh
 ./module/epel-release.sh
 ./module/firewalld.sh
 ./module/snapd.sh
