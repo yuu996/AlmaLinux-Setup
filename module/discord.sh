@@ -1,4 +1,4 @@
 #!/bin/sh
 echo "installing snapd"
-sudo yum install discord
+sudo snap install discord
 /snap/bin/discord
