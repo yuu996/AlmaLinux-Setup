@@ -12,4 +12,5 @@
 ./module/bitwarden.sh
 ./module/chrome.sh
 ./module/tweaks.sh
+./module/timestamp_timeout.sh
 ./module/update.sh
