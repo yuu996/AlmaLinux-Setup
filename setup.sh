@@ -1,4 +1,5 @@
 #!/bin/sh
+./module/timestamp_timeout.sh
 ./module/update.sh
 ./module/epel-release.sh
 ./module/firewalld.sh
@@ -12,5 +13,4 @@
 ./module/bitwarden.sh
 ./module/chrome.sh
 ./module/tweaks.sh
-./module/timestamp_timeout.sh
 ./module/update.sh
