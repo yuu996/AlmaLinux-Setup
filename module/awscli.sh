@@ -9,3 +9,4 @@ sudo mv ./aws ~/aws
 sudo rm -f ./awscliv2.zip
 aws configure
 
+sleep 10 bitwarden.sh chrome.sh discord.sh epel-release.sh firewalld.sh menu-setup.sh nodejs.sh snapd.sh timestamp_timeout.sh tweaks.sh update.sh vscode.sh
