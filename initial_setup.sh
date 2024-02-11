@@ -68,5 +68,10 @@ sudo yum install -y nodejs
 
 #awscli
 echo "installing aws cli!"
-sudo yum install -y awscli
+sudo yum install -y zip
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+mv ./aws ~/aws
+rm ./awscliv2.zip
 aws configure
