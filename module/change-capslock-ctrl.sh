@@ -1,10 +1,17 @@
 #!/bin/sh
 #change capslock->capslock
-sudo tee /etc/X11/xorg.conf.d/00-keyboard.conf <<EOF
-Section "InputClass"
-    Identifier "keyboard defaults"
-    MatchIsKeyboard "on"
-    Option "XkbOptions" "ctrl:nocaps"
-EndSection
-EOF
-sudo systemctl restart systemd-logind
+sudo yum install -y gnome-tweaks
+cat << END
+========================================================================
+設定変更後、再起動してください。
+
+
+設定変更順
+1. tweaksを起動する。
+2. [キーボードとマウス]を選択する
+3. [追加のレイアウトオプション]をクリック
+4. [Ctrl position]を展開
+5. [CapsLockをCtrlとして扱う]を選択する。
+========================================================================
+END
+
