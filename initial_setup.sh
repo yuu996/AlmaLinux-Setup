@@ -8,6 +8,8 @@ echo "installing epel-release.north"
 sudo yum install -y epel-release
 
 #firewalld設定
+echo "setting firewalld!"
+sudo firewall-cmd --remove-service=ssh --permanent
 sudo firewall-cmd --list-service
 sudo systemctl stop sshd
 
