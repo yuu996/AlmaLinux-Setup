@@ -5,4 +5,3 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 
 sudo dnf check-update
 sudo dnf install -y code
-sleep 10
