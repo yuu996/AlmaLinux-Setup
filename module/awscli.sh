@@ -8,3 +8,4 @@ sudo ./aws/install
 sudo mv ./aws ~/aws
 sudo rm -f ./awscliv2.zip
 aws configure
+sudo yum update -y

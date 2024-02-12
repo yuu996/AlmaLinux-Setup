@@ -10,3 +10,4 @@ gpgkey=https://dl-ssl.google.com/linux/linux_signing_key.pub
 end'
 sudo yum -y update
 sudo yum install -y google-chrome-stable
+sudo yum update -y
