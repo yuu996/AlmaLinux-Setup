@@ -1,6 +1,8 @@
 #!/bin/sh
 ./module/update.sh
 wait
+./module/file_lang_en.sh
+wait
 ./module/epel-release.sh
 wait
 ./module/git.sh
