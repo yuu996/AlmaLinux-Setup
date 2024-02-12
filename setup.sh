@@ -1,7 +1,7 @@
 #!/bin/sh
 ./module/update.sh && \
 ./module/epel-release.sh && \
-./module/git.sh && \
+./module/git.sh
 ./module/firewalld.sh && \
 ./module/snapd.sh && \
 ./module/awscli.sh && \
