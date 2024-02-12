@@ -19,15 +19,16 @@ wait
 wait
 while :
 do
-./module/discord.sh
-wait
-wait
-    if [$? -eq 0]; then
+    ./module/discord.sh
+    wait
+    if [ $? -eq 0 ]; then
         break
     fi
     sleep 5
+done
 ./module/bitwarden.sh
 wait
 ./module/chrome.sh
 wait
 ./module/tweaks.sh
+
