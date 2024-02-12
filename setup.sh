@@ -12,6 +12,6 @@
 ./module/bitwarden.sh && \
 ./module/chrome.sh && \
 ./module/tweaks.sh && \
-./module/update.sh
+./module/update.sh && \
 ./module/discord.sh && \
 ./module/update.sh
