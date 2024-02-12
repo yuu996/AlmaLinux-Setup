@@ -6,6 +6,7 @@
 ./module/snapd.sh
 ./module/awscli.sh
 ./module/update.sh
+sleep 60
 ./module/discord.sh
 ./module/menu-setup.sh
 ./module/nodejs.sh
