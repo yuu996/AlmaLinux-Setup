@@ -11,8 +11,6 @@ wait
 wait
 ./module/awscli.sh
 wait
-./module/update.sh
-wait
 ./module/menu-setup.sh
 wait
 ./module/nodejs.sh
@@ -25,8 +23,4 @@ wait
 wait
 ./module/tweaks.sh
 wait
-./module/update.sh
-wait
 ./module/discord.sh
-wait
-./module/update.sh
