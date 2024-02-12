@@ -14,3 +14,4 @@
 ./module/tweaks.sh
 ./module/update.sh
 ./module/discord.sh
+./module/update.sh
