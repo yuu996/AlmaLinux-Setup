@@ -6,8 +6,6 @@
 ./module/snapd.sh
 ./module/awscli.sh
 ./module/update.sh
-sleep 60
-./module/discord.sh
 ./module/menu-setup.sh
 ./module/nodejs.sh
 ./module/vscode.sh
@@ -15,3 +13,4 @@ sleep 60
 ./module/chrome.sh
 ./module/tweaks.sh
 ./module/update.sh
+./module/discord.sh
