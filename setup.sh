@@ -17,10 +17,16 @@ wait
 wait
 ./module/vscode.sh
 wait
+while :
+do
 ./module/bitwarden.sh
 wait
 ./module/discord.sh
 wait
+    if [$? -eq 0]; then
+        break
+    fi
+    sleep 5
 ./module/chrome.sh
 wait
 ./module/tweaks.sh
