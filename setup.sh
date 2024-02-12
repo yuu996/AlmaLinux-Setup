@@ -17,10 +17,10 @@ wait
 wait
 ./module/vscode.sh
 wait
+./module/discord.sh
+wait
 ./module/bitwarden.sh
 wait
 ./module/chrome.sh
 wait
 ./module/tweaks.sh
-wait
-./module/discord.sh
