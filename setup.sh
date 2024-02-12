@@ -17,6 +17,7 @@ wait
 wait
 ./module/vscode.sh
 wait
+sleep 60
 ./module/discord.sh
 wait
 ./module/bitwarden.sh
