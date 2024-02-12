@@ -1,5 +1,6 @@
 #!/bin/sh
 ./module/update.sh
+./module/git.sh
 ./module/timestamp_timeout.sh
 ./module/epel-release.sh
 ./module/firewalld.sh
