@@ -36,7 +36,7 @@
 su 
 
 #追加
-echo "Defaultstimestamp_timeout = -1" >> /etc/sudoers
+echo "Defaults timestamp_timeout = -1" >> /etc/sudoers
 ```
 
 5分でタイムアウトする場合。
@@ -46,7 +46,7 @@ echo "Defaultstimestamp_timeout = -1" >> /etc/sudoers
 su 
 
 #追加
-echo "Defaultstimestamp_timeout = 5" >> /etc/sudoers
+echo "Defaults timestamp_timeout = 5" >> /etc/sudoers
 ```
 
 ---
