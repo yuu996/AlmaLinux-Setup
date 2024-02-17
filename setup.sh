@@ -27,5 +27,7 @@ wait
 wait
 ./module/chrome.sh
 wait
+./module/virtualbox.sh
+wait
 ./module/tweaks.sh
 
